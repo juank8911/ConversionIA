@@ -1,0 +1,13 @@
+{
+    "recommendations": [
+        "blackboxapp.blackbox",
+        "mccarter.start-git-bash",
+        "zhphhh.tconda",
+        "donjayamanne.python-extension-pack",
+        "ms-python.python",
+        "ms-python.vscode-pylance",
+        "sygene.auto-correct",
+        "tabnine.tabnine-vscode",
+        "malcolmmielle.semantic-highlighting"
+    ]
+}
