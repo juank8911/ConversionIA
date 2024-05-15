@@ -8,6 +8,10 @@
         "ms-python.vscode-pylance",
         "sygene.auto-correct",
         "tabnine.tabnine-vscode",
-        "malcolmmielle.semantic-highlighting"
+        "malcolmmielle.semantic-highlighting",
+        "ms-ceintl.vscode-language-pack-es",
+        "ms-toolsai.jupyter",
+        "ms-toolsai.jupyter-keymap",
+        "ms-toolsai.jupyter-renderers"
     ]
 }

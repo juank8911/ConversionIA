@@ -1,11 +1,11 @@
-from .api_adapter import DexApiAdapter
-
 class Api:
     def __init__(self):
-        self.api_adapter = DexApiAdapter()
+        self.api_adapter = ApiAdapter()
 
-    async def connect(self):
-        return await self.api_adapter.connect()
+    async def get_defi_data(self):
+        data = await self.api_adapter.get_defi_data()
+        return data
 
-    async def get_data(self):
-        return await self.api_adapter.get_data()
+    async def get_new_launches(self):
+        new_launches = await self.api_adapter.get_new_launches()
+        return new_launches
