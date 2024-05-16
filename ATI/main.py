@@ -1,11 +1,12 @@
 import sys
-from infrastructure.api import Api
+import asyncio
 
-def main():
+sys.path.append('./infrastructure/api')
+
+async def main():
     api = Api()
-    api.connect()
-    data = api.get_data()
+    await api.connect()
+    data = await api.get_data()
     print(data)
-
 if __name__ == "__main__":
-    sys.exit(main())
+    asyncio.run(main())
